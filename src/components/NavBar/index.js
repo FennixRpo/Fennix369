@@ -1,4 +1,4 @@
-import Logo from '/'
+import Logo from '../../assets/zospace-assets/logos/Logo.png'
 import React from "react";
 
 
@@ -7,7 +7,7 @@ export default function NavBar() {
     <>
       <nav className="bg-black text-white shadow flex justify-between">
         <div className="flex my-auto content-center py-auto">
-          <h1 className='text-center'>LOGO</h1>
+          <img src={Logo} width={85} className='p-3' />
         </div>
         <div className="container px-5 gap-12 flex items-center justify-center p-6 mx-auto text-white capitalize ">
           <a href="/quienes-somos" className=" px-6 transition-colors duration-300 transform  mx-1.5 sm:mx-6">Quienes Somos</a>
