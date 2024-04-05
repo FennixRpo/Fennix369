@@ -17,8 +17,10 @@ export default function Contacto() {
       <HelmetProvider>
         <Helmet {...meta}></Helmet>
       </HelmetProvider>
-      <div className='w-full bg-gray-800 py-8 px-4 lg:px-10'>
+
       <NavBar />
+      <div className='w-full bg-gray-800 py-8 px-4 lg:px-10'>
+      
       </div>
 
       <section className='relative py-20 2xl:py-40 bg-gray-800'>
