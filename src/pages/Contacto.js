@@ -54,7 +54,7 @@ export default function Contacto() {
                     <div className='md:text-right'>
                       <a
                         className='inline-block px-12 py-4 border border-gray-300 hover:border-gray-200 rounded-full font-bold text-white'
-                        href='#'
+                        href="https://api.whatsapp.com/send?phone=573244490660"
                       >
                         WhatsApp
                       </a>
